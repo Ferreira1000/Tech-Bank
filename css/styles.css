@@ -48,8 +48,8 @@ body {
 }
 
 #pizzas img {
-  min-height: 262px;
-  max-height: 262px;
+  min-height: auto;
+  max-height: auto;
   transition: filter 0.4s;
 }
 
