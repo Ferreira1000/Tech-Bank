@@ -1,0 +1,58 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+}
+
+#logo img {
+  padding-right: 2%;
+}
+
+#logo {
+  font-weight: 600;
+  font-size: 14pt;
+  color: #fc9f5b;
+  letter-spacing: 1px;
+}
+
+#nav {
+  background-color: black;
+  padding: 1%;
+}
+
+#nav a {
+  color: #fc9f5b;
+  transition: color 0.5s;
+}
+
+#nav a:hover {
+  color: #ff6d03;
+}
+
+#pizzas {
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+#contato {
+  background-color: #fc9f5b;
+  border-radius: 100px;
+  padding: 1% 2% 1% 2%;
+  border: none;
+  color: white;
+  font-weight: 500;
+  transition: background-color 0.5s;
+}
+
+#contato:hover {
+  background-color: #ff6d03;
+}
+
+#pizzas img {
+  min-height: 262px;
+  max-height: 262px;
+  transition: filter 0.4s;
+}
+
+#p-photo:hover {
+  filter: brightness(0.4);
+}
